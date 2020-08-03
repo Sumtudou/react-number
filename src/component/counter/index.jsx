@@ -14,7 +14,7 @@ class Counter extends React.Component {
         </div>
     }
     static getDerivedStateFromProps(props , state){
-        if(props.clear === 1){
+        if(props.clearValue === 1){
             state.value = 0;
         }
     }
